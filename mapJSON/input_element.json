@@ -1,0 +1,17 @@
+{
+  "NAMESURNAME":{
+    "ANDROID":{
+      "id":"com.foreks.android.bigpara:id/fragmentSignUp_editText_nameSurname"
+    }
+  },
+  "EMAIL":{
+    "ANDROID":{
+      "id":"com.foreks.android.bigpara:id/fragmentSignUp_editText_email"
+    }
+  },
+  "PASSWORD":{
+    "ANDROID":{
+      "id":"com.foreks.android.bigpara:id/fragmentSignUp_editText_password"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "GUESTBUTTONBP": {
+    "ANDROID": {
+      "id": "com.foreks.android.bigpara:id/slideApplicationIntro_textView_guestButton"
+    }
+  },
+  "SAYFAM": {
+    "ANDROID": {
+      "xpath": "//android.widget.TextView[@content-desc='SAYFAM']"
+    }
+  },
+  "LOGIN": {
+    "ANDROID": {
+      "id": "com.foreks.android.bigpara:id/layoutState_button_retry"
+    }
+  },
+  "REGISTERNOW": {
+    "ANDROID": {
+      "id": "com.foreks.android.bigpara:id/activityLogin_typefaceTextView_createUserButton"
+    }
+  },
+  "BIRTHDATE": {
+    "ANDROID": {
+      "id": "com.foreks.android.bigpara:id/fragmentSignUp_typefaceTextView_birthDate"
+    }
+  },
+  "DATE": {
+    "ANDROID": {
+      "xpath": "//android.view.View[@content-desc='01 Ağustos 1970']"
+    }
+  },
+  "OK": {
+    "ANDROID": {
+      "id": "com.foreks.android.bigpara:id/ok"
+    }
+  },
+  "GENDER": {
+    "ANDROID": {
+      "xpath": "//android.widget.TextView[@content-desc='Cinsiyet']"
+    }
+  },
+  "CHECKBOX1": {
+    "ANDROID": {
+      "id": "com.foreks.android.bigpara:id/fragmentSignUp_radioButton_userAgreementAccept"
+    }
+  },
+  "CHECKBOX2": {
+    "ANDROID": {
+      "id": "com.foreks.android.bigpara:id/fragmentSignUp_radioButton_promotionAccept"
+    }
+  },
+  "CONTUNIE":{
+    "ANDROID":{
+      "id":"com.foreks.android.bigpara:id/fragmentSignUp_typefaceTextView_continueButton"
+    }
+  }
+}

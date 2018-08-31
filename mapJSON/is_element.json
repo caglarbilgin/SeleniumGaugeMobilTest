@@ -1,0 +1,12 @@
+{
+  "GUESTBUTTONBP":{
+    "ANDROID":{
+      "id":"com.foreks.android.bigpara:id/slideApplicationIntro_textView_guestButton"
+    }
+  },
+  "WAIT":{
+    "ANDROID":{
+      "xpath":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.LinearLayout/android.widget.ListView/android.widget.FrameLayout[2]/android.widget.RelativeLayout"
+    }
+  }
+}
