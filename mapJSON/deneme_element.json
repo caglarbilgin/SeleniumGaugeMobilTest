@@ -1,0 +1,10 @@
+{
+  "PIYASALAR": {
+    "ANDROID": {
+      "xpath": "//android.widget.TextView[@content-desc='PİYASALAR']"
+    },
+    "IOS": {
+      "xpath": "(//XCUIElementTypeButton[@name='AX error -25205'])[3]"
+    }
+  }
+}

@@ -18,8 +18,6 @@ import java.util.Locale;
 import java.util.Map.Entry;
 import java.util.Set;
 
-
-
 public class Mapper {
 
     private static final String BASE_PATH="mapJSON/";
@@ -113,9 +111,6 @@ public class Mapper {
                 return coordinates;
          }
 
-
-
-
         static By generateByElement(String byType, String byValue) {
             By byElement = null;
             if (byType.contains(MapValue.ID.getText())) {
@@ -133,7 +128,6 @@ public class Mapper {
             }
             return byElement;
         }
-
 
         private static String clearTurkishCharsAndUpperCase(String str){
 

@@ -1,0 +1,15 @@
+Created by sahabt on 31.08.2018
+
+This is a concept file with following syntax for each concept.
+# <isim-soyisim> , <eposta> ,  <şifre> bilgileri girilir. Cinsiyet <cinsiyet> seçilir.  Register olunur.
+* "NAMESURNAME" alanına <isim-soyisim> yaz
+* "EMAIL" alanına <eposta> yaz
+* "PASSWORD" alanına <şifre> yaz
+* "BIRTHDATE" butonuna tıkla
+* "DATE" butonuna tıkla
+* "OK" butonuna tıkla
+* "GENDER" butonuna tıkla
+* "GENDERLIST" listesinden <cinsiyet> numaralı elementi seç
+* "CHECKBOX1" butonuna tıkla
+* "CHECKBOX2" butonuna tıkla
+* "CONTUNIE" butonuna tıkla

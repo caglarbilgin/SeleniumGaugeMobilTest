@@ -7,18 +7,24 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.touch.offset.PointOption;
+import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.interactions.Locatable;
 
 import org.openqa.selenium.interactions.touch.TouchActions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 public class ContexPage extends BaseTest {
 
-
+    public static final int DEFAULT_WAIT = 10;
 
     public static void contextSwitch(String context) {
         Set<String> contextNames = driver.getContextHandles();
@@ -100,5 +106,23 @@ public class ContexPage extends BaseTest {
         }
     }
 
+    public void checkTextEqual(String text1, String text2){
+        Assert.assertEquals(text1,text2);
+
+    }
+
+    public static  MobileElement getElement(By locator) {
+        MobileElement element = null;
+        if (locator != null) {
+            WebDriverWait wait = new WebDriverWait(driver, DEFAULT_WAIT);
+            element = (MobileElement) wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        }
+        return element;
+    }
+
+    public static void setParameter(String userKey, String userValue){
+        Map<String,String> parameter = new HashMap<>();
+        parameter.replace(userKey,userValue);
+    }
 
 }

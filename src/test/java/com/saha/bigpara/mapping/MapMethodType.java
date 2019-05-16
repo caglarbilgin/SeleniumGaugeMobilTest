@@ -2,7 +2,7 @@ package com.saha.bigpara.mapping;
 
 public enum MapMethodType {
 
-    CLICK_ELEMENT("click_element"), INPUT_ELEMENT("input_element"), IS_ELEMENT("is_element"), SELECT_ELEMENT("select_element");
+    CLICK_ELEMENT("click_element"), INPUT_ELEMENT("input_element"), IS_ELEMENT("is_element"), SELECT_ELEMENT("select_element"),DENEME_ELEMENT("deneme_element");
 
     private final String value;
 

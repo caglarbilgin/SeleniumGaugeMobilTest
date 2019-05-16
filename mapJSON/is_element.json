@@ -4,9 +4,119 @@
       "id":"com.foreks.android.bigpara:id/slideApplicationIntro_textView_guestButton"
     }
   },
-  "WAIT":{
+
+
+  "BORSAISTANBUL":{
     "ANDROID":{
-      "xpath":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.LinearLayout/android.widget.ListView/android.widget.FrameLayout[2]/android.widget.RelativeLayout"
+      "xpath":"//android.widget.TextView[@content-desc='Borsa İstanbul']"
+    }
+  },
+
+  "PARITE":{
+    "ANDROID": {
+      "xpath": "//android.widget.TextView[@content-desc='Parite']"
+    }
+  },
+
+  "ALTIN":{
+    "ANDROID":{
+      "xpath":"//android.widget.TextView[@content-desc='Altın']"
+    }
+  },
+
+  "DUSENLER": {
+    "ANDROID": {
+      "xpath": "//android.widget.TextView[@content-desc='Düşenler']"
+    }
+  },
+    "LOT": {
+      "ANDROID": {
+        "xpath": "//android.widget.TextView[@content-desc='Lot']"
+      }
+    },
+    "DUNYABORSAENDEKSLERI": {
+      "ANDROID":{
+        "xpath": "//android.widget.TextView[@content-desc='DÜNYA BORSA ENDEKSLERİ']"
+      }
+    },
+  "GDUSUK":{
+    "ANDROID":{
+      "xpath": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[4]/android.widget.LinearLayout/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.TextView[2]"
+    }
+  },
+  "GYUKSEK":{
+    "ANDROID":{
+      "xpath": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[4]/android.widget.LinearLayout/android.widget.FrameLayout[3]/android.widget.LinearLayout/android.widget.TextView[2]"
+    }
+  },
+  "ADSOYAD":{
+    "ANDROID":{
+      "id":"com.foreks.android.bigpara:id/activityHurpassAccount_editText_nameSurname"
+    }
+  },
+  "CINSIYET":{
+    "ANDROID":{
+      "id":"com.foreks.android.bigpara:id/activityHurpassAccount_typefaceTextView_gender"
+    }
+  },
+  "DOGUMTARIHI":{
+    "ANDROID":{
+      "id":"com.foreks.android.bigpara:id/activityHurpassAccount_typefaceTextView_birthDate"
+    }
+  },
+  "EPOSTA":{
+    "ANDROID":{
+      "id":"com.foreks.android.bigpara:id/activityHurpassAccount_editText_email"
+    }
+  },
+  "SIFRE":{
+    "ANDROID":{
+      "id":"com.foreks.android.bigpara:id/activityHurpassAccount_editText_password"
+    }
+  },
+  "HESABIM":{
+    "ANDROID": {
+      "id": "com.foreks.android.bigpara:id/layoutNavigationDrawer_textView_user"
+    }
+  },
+  "HABERICERIK":{
+    "ANDROID": {
+      "id": "com.foreks.android.bigpara:id/fragmentBigparaExpertComment_textView_spotTitle"
+    }
+  },
+  "HABERICERIK":{
+    "ANDROID": {
+      "id": "com.foreks.android.bigpara:id/fragmentBigparaExpertComment_textView_spotTitle"
+    }
+  },
+  "TITLE":{
+    "ANDROID":{
+    "id":"com.foreks.android.bigpara:id/fragmentBigparaNewsDetail_textView_title"
+    }
+  },
+  "ARACLAR":{
+    "ANDROID":{
+      "id": "com.foreks.android.bigpara:id/layoutNavigationDrawer_textView_toolsMain"
+    }
+  },
+  "SIFREMAILBILDIRIMI": {
+    "ANDROID": {
+      "id": "com.foreks.android.bigpara:id/content"
+    }
+  },
+  "KIDEMANALIZI_TABLO1": {
+    "ANDROID": {
+      "xpath": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[2]/android.widget.LinearLayout"
+    }
+  },
+   "KIDEMANALIZI_TABLO2":{
+      "ANDROID": {
+        "xpath": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[4]/android.widget.LinearLayout"
+      }
+    },
+  "KURLAR": {
+    "ANDROID": {
+      "id" : "com.foreks.android.bigpara:id/activityProfitLossCalculation_profitLossChartView"
     }
   }
 }

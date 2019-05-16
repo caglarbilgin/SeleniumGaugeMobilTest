@@ -9,9 +9,49 @@
       "id":"com.foreks.android.bigpara:id/fragmentSignUp_editText_email"
     }
   },
+  "LOGINEMAIL":{
+  "ANDROID":{
+    "id":"com.foreks.android.bigpara:id/activityLogin_editText_eMail"
+   }
+  },
+  "LOGINPASSWORD":{
+    "ANDROID":{
+      "id":"com.foreks.android.bigpara:id/activityLogin_editText_password"
+    }
+  },
   "PASSWORD":{
     "ANDROID":{
-      "id":"com.foreks.android.bigpara:id/fragmentSignUp_editText_password"
+      "id": "com.foreks.android.bigpara:id/fragmentSignUp_editText_password"
+    }
+  },
+  "BIGPARAEPOSTA":{
+    "ANDROID":{
+      "id": "com.foreks.android.bigpara:id/activityLogin_editText_eMail"
+    }
+  },
+  "BIGPARAPAROLA":{
+    "ANDROID":{
+      "id": "com.foreks.android.bigpara:id/activityLogin_editText_password"
+    }
+  },
+  "SEMBOLSECIMIARAMA":{
+    "ANDROID":{
+      "id": "com.foreks.android.bigpara:id/actvitySymbolSearch_editText_search"
+    }
+  },
+  "MIKTAR":{
+    "ANDROID":{
+      "id": "com.foreks.android.bigpara:id/activityInvestmentEdit_editText_amount"
+    }
+  },
+  "ALISFIYATI": {
+    "ANDROID": {
+      "id": "com.foreks.android.bigpara:id/activityInvestmentEdit_editText_buy"
+    }
+  },
+  "YENISIFREEPOSTA":{
+    "ANDROID": {
+      "xpath": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.View/android.widget.LinearLayout[2]/android.widget.RelativeLayout/android.widget.EditText"
     }
   }
 }

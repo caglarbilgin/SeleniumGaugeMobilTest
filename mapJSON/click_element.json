@@ -53,5 +53,171 @@
     "ANDROID":{
       "id":"com.foreks.android.bigpara:id/fragmentSignUp_typefaceTextView_continueButton"
     }
+  },
+  "PIYASALAR":{
+    "ANDROID":{
+      "xpath":"//android.widget.TextView[@content-desc='PİYASALAR']"
+    }
+  },
+  "DUNYABORSAENDEKSLERI":{
+    "ANDROID":{
+      "xpath":"//android.widget.TextView[@content-desc='DÜNYA BORSA ENDEKSLERİ']"
+    }
+  },
+  "BRENT":{
+    "ANDROID":{
+      "xpath":"//android.widget.TextView[@content-desc='BRENT']"
+    }
+  },
+  "GIRISYAP":{
+    "ANDROID":{
+      "id":"com.foreks.android.bigpara:id/layoutState_button_retry"
+    }
+  },
+  "DEVAMET":{
+    "ANDROID":{
+      "id":"com.foreks.android.bigpara:id/activityLogin_typefaceTextView_loginButton"
+    }
+  },
+  "HAMBURGERMENU":{
+    "ANDROID":{
+      "xpath":"//android.widget.ImageButton[@content-desc='Menu opened']"
+    }
+  },
+  "HESABIM":{
+    "ANDROID":{
+      "id":"com.foreks.android.bigpara:id/layoutNavigationDrawer_textView_user"
+    }
+  },
+  "SAYFAM":{
+    "ANDROID":{
+      "xpath":"//android.widget.TextView[@content-desc='SAYFAM']"
+    }
+  },
+  "HABERLER":{
+    "ANDROID":{
+      "id":"com.foreks.android.bigpara:id/layoutNavigationDrawer_textView_newsMain"
+    }
+  },
+  "UZMANYORUMLARI":{
+    "ANDROID":{
+      "xpath": "//android.widget.TextView[@content-desc='UZMAN YORUMLARI']"
+    }
+  },
+  "UZMAN_1":{
+    "ANDROID":{
+      "xpath": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.RelativeLayout/android.view.View/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]"
+    }
+  },
+  "KAP":{
+    "ANDROID":{
+      "xpath": "//android.widget.TextView[@content-desc='KAP']"
+    }
+  },
+  "KAPBILDIRI":{
+    "ANDROID":{
+      "xpath": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.RelativeLayout/android.view.View/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[5]"
+    }
+  },
+  "ARACLAR":{
+    "ANDROID":{
+      "id": "com.foreks.android.bigpara:id/layoutNavigationDrawer_textView_toolsMain"
+    }
+  },
+  "HABERLER": {
+    "ANDROID": {
+      "xpath": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout[1]/android.widget.LinearLayout"
+    }
+  },
+  "HABER": {
+    "ANDROID": {
+      "id": "com.foreks.android.bigpara:id/rowBigparaNews_imageview_itemImage"
+    }
+  },
+  "YATIRIMLARIM":{
+    "ANDROID":{
+      "xpath": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.LinearLayout/android.widget.GridView/android.widget.LinearLayout[1]"
+    }
+  },
+  "YENIYATIRIMEKLE":{
+    "ANDROID":{
+      "id": "com.foreks.android.bigpara:id/activityInvestmentEditList_textView_addNew"
+    }
+  },
+  "SEMBOLSECIMI":{
+    "ANDROID":{
+      "id": "com.foreks.android.bigpara:id/activityInvestmentEdit_textView_symbol"
+    }
+  },
+  "SEMBOLARAMASONUCU":{
+    "ANDROID": {
+      "id": "com.foreks.android.bigpara:id/rowSymbolSearch_textView_symbolCode"
+    }
+  },
+  "SEMBOLSECIMIARAMASEARCH":{
+    "ANDROID":{
+      "id": "com.foreks.android.bigpara:id/actvitySymbolSearch_editText_search"
+    }
+  },
+  "YATIRIMLARAKAYDET":{
+    "ANDROID":{
+      "id": "com.foreks.android.bigpara:id/activityInvestmentEdit_textView_save"
+    }
+  },
+  "KALEMBUTON":{
+    "ANDROID":{
+      "id": "com.foreks.android.bigpara:id/menu_investment_edit"
+    }
+  },
+  "SIFREMIUNUTTUM":{
+    "ANDROID":{
+      "id": "com.foreks.android.bigpara:id/activityLogin_typefaceTextView_forgotPassword"
+    }
+  },
+  "YENISFIRETAMAMBUTON": {
+    "ANDROID": {
+      "id": "com.foreks.android.bigpara:id/buttonDefaultPositive"
+    }
+  },
+  "ANALIZLER": {
+    "ANDROID": {
+      "id": "com.foreks.android.bigpara:id/layoutNavigationDrawer_textView_toolsAnalysis"
+    }
+  },
+  "PARAMNEOLDU": {
+    "ANDROID": {
+      "xpath": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.LinearLayout/android.widget.GridView/android.widget.LinearLayout[2]"
+    }
+  },
+  "LOGINBUTTON": {
+    "ANDROID": {
+      "id": "com.foreks.android.bigpara:id/activityLogin_typefaceTextView_loginButton"
+    }
+  },
+  "SEMBOLEKLECIKAR": {
+    "ANDROID": {
+      "id": "com.foreks.android.bigpara:id/activityProfitLossCalculation_typefaceTextView_symbolAdd"
+    }
+  },
+  "TAMAM": {
+    "ANDROID": {
+      "id": "com.foreks.android.bigpara:id/activitySymbolSearch_textView_ok"
+    }
+  },
+  "KADEMEANALIZI":{
+    "ANDROID": {
+      "xpath": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.LinearLayout/android.widget.GridView/android.widget.LinearLayout[3]"
+    }
+  },
+  "KADEMEANALIZISECINIZ": {
+    "ANDROID": {
+      "id": "com.foreks.android.bigpara:id/activityPriceAnalysis_relativeLayout_topButton"
+    }
+  },
+  "GRAFIK": {
+    "ANDROID": {
+      "xpath": "//android.widget.TextView[@content-desc='GRAFİK']"
+    }
   }
+
 }
